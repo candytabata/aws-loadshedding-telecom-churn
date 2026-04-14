@@ -34,7 +34,7 @@ The XGBoost model was evaluated on the held-out test split and produced the foll
 | AUC | 0.833 |
 | Accuracy | 0.786 |
 
-An AUC of 0.833 means the model can correctly rank a churner above a non-churner 83% of the time, which is a reasonable result for a churn model. The model cleared the 0.7 threshold and was registered in the SageMaker Model Registry with `PendingManualApproval` status.
+An AUC of 0.833, the model can correctly rank a churner above a non-churner 83% of the time, which is a reasonable result for a churn model. The model cleared the 0.7 threshold and was registered in the SageMaker Model Registry with `PendingManualApproval` status.
 
 The data is synthetic, so these numbers cannot be taken as evidence that load-shedding is a real churn driver. What the pipeline demonstrates is that once such a feature is available, built from actual Eskom schedules joined to a real subscriber base, the infrastructure is ready to test it at scale.
 
