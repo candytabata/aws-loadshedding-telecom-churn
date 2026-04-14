@@ -8,7 +8,7 @@ The infrastructure lifecycle (pipeline registration, model registry setup and cl
 
 ## DAG structure
 
-<img src="images/dag_structure.png" width="300">
+<img src="images/dag_structure.png" width="500">
 
 ## What this does
 
